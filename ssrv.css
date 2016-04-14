@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+#head
+{
+	position:fixed;
+	height:100px; 
+	width:100%; 
+	}
+
+#sidebar
+{
+	position:fixed;
+	width:250px; 
+	top:108px;
+
+	}
+
+#main
+{
+	position: relative;
+	left: 250px;
+	top: 100px;
+	z-index:-1;
+	
+	}
+#view1
+{
+	position:relative;
+	left: 50px;
+	top:50px;
+}
+#view2
+{
+	position:absolute;
+	left: 50px;
+	top:50px;
+	visibility:hidden;
+}
+
+.topnav
+{
+	text-align:right;
+	margin-top:0px;
+}
+
+#signup
+{
+	position:relative;
+	left: 50px;
+	top: 0px;
+        
+}
+p.feilds
+{
+font:"arial", Times, serif;
+font:x-small; 
+font-size:20px;
+color: white;
+}
+
+#frm1
+{
+	position: absolute;
+	top: 80px;
+	left: 500px;
+	border-style: ridge;
+	border-color: black;
+	height: 500px;
+	width: 400px;
+}
+#frm2
+{
+	position: absolute;
+	top: 80px;
+	left: 238px;
+	border-style: ridge;
+	border-color: black;
+	height: auto;
+	width: 400px;
+}
+#frm3
+{
+	position: absolute;
+	top: 80px;
+	left: 238px;
+	border-style: ridge;
+	border-color: #999999;
+	height: auto;
+	width: 400px;
+	visibility:hidden;
+}
+.table
+{
+font:"Lantingh", Times, serif;
+color: white;
+font-weight:500;
+border-color: white;
+}
+
+body
+{
+background: url(images/train.jpg) no-repeat ;
+background-size:cover;
+
+}
+
